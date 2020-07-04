@@ -1,7 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="58708443-8009-43da-a6c5-3271342cfb45" name="Default Changelist" comment="项目初始化" />
+    <list default="true" id="58708443-8009-43da-a6c5-3271342cfb45" name="Default Changelist" comment="项目初始化">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/httd-api/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/httd-api/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/httd-api/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/httd-api/logs/smart-error.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/httd-api/logs/smart-error_2020-05-24_i.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/httd-api/logs/smart-error_2020-06-02_i.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/httd-api/logs/smart-error_2020-06-04_i.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/httd-api/logs/smart-error_2020-06-06_i.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/httd-api/logs/smart-error_2020-06-08_i.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/httd-api/logs/smart-error_2020-06-11_i.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/httd-api/logs/smart-error_2020-06-16_i.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/httd-api/logs/smart-error_2020-06-20_i.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/httd-api/logs/smart-error_2020-06-21_i.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/httd-api/logs/smart-error_2020-06-25_i.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/httd-api/logs/smart-info.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/httd-api/logs/smart-info_2020-05-22_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/httd-api/logs/smart-info_2020-05-24_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/httd-api/logs/smart-info_2020-05-31_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/httd-api/logs/smart-info_2020-06-02_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/httd-api/logs/smart-info_2020-06-03_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/httd-api/logs/smart-info_2020-06-04_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/httd-api/logs/smart-info_2020-06-05_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/httd-api/logs/smart-info_2020-06-06_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/httd-api/logs/smart-info_2020-06-08_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/httd-api/logs/smart-info_2020-06-10_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/httd-api/logs/smart-info_2020-06-11_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/httd-api/logs/smart-info_2020-06-14_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/httd-api/logs/smart-info_2020-06-16_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/httd-api/logs/smart-info_2020-06-20_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/httd-api/logs/smart-info_2020-06-21_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/httd-api/logs/smart-info_2020-06-22_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/httd-api/logs/smart-info_2020-06-25_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/httd-api/logs/smart-info_2020-06-26_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/httd-api/logs/smart-info_2020-06-27_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/httd-api/logs/smart-info_2020-06-28_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/httd-api/logs/smart-info_2020-06-29_1.log" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -9,6 +65,20 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$PROJECT_DIR$/../java/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="$PROJECT_DIR$/../java/apache-maven-3.6.3/conf/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
   </component>
   <component name="ProjectId" id="1eE98sJ2sPSFPJAzIjwR1uJ6b6E" />
   <component name="ProjectViewState">
@@ -19,7 +89,12 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -31,7 +106,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1593875728633</updated>
-      <workItem from="1593875731497" duration="311000" />
+      <workItem from="1593875731497" duration="350000" />
+      <workItem from="1593876220628" duration="108000" />
+      <workItem from="1593876582222" duration="2000" />
     </task>
     <task id="LOCAL-00001" summary="项目初始化">
       <created>1593875902848</created>
@@ -40,7 +117,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593875902848</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="项目初始化">
+      <created>1593876055764</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1593876055764</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -56,9 +140,24 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="项目初始化" />
     <option name="LAST_COMMIT_MESSAGE" value="项目初始化" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="396" y="233" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1593875855024">
+      <screen x="72" y="23" width="1720" height="1097" />
+    </state>
+    <state x="396" y="233" key="#com.intellij.execution.impl.EditConfigurationsDialog/72.23.1720.1097@72.23.1720.1097" timestamp="1593875855024" />
+    <state x="485" y="88" key="SettingsEditor" timestamp="1593876278295">
+      <screen x="72" y="23" width="1720" height="1097" />
+    </state>
+    <state x="485" y="88" key="SettingsEditor/72.23.1720.1097@72.23.1720.1097" timestamp="1593876278295" />
+    <state x="532" y="311" key="Vcs.Push.Dialog.v2" timestamp="1593876063230">
+      <screen x="72" y="23" width="1720" height="1097" />
+    </state>
+    <state x="532" y="311" key="Vcs.Push.Dialog.v2/72.23.1720.1097@72.23.1720.1097" timestamp="1593876063230" />
   </component>
 </project>

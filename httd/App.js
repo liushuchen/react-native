@@ -18,6 +18,6 @@ export const App = createStackNavigator({
     },
 }, {
     mode: 'modal',//modal模式
-   /* headerMode: 'none',//不设置头部*/
+   /* headerMode: 'none',//不设置头s部*/
 });
 export default createAppContainer(App);

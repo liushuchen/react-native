@@ -1,0 +1,498 @@
+2020-06-26 12:40:04 [ INFO ] [ com.httd.api.AdminApplication ] Starting AdminApplication on lscdeMacBook-Pro.local with PID 5770 (/Volumes/LSC/recat-native/httd-api/target/classes started by lsc in /Volumes/LSC/recat-native/httd-api)
+2020-06-26 12:40:04 [ INFO ] [ com.httd.api.AdminApplication ] The following profiles are active: localhost
+2020-06-26 12:40:04 [ INFO ] [ org.springframework.data.repository.config.RepositoryConfigurationDelegate ] Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-06-26 12:40:04 [ INFO ] [ org.springframework.data.repository.config.RepositoryConfigurationDelegate ] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-06-26 12:40:04 [ INFO ] [ org.springframework.data.repository.config.RepositoryConfigurationDelegate ] Finished Spring Data repository scanning in 24ms. Found 0 Redis repository interfaces.
+2020-06-26 12:40:05 [ INFO ] [ org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker ] Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration$DataSourceTransactionManagerConfiguration' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration$DataSourceTransactionManagerConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 12:40:05 [ INFO ] [ org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker ] Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 12:40:05 [ INFO ] [ org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker ] Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 12:40:05 [ INFO ] [ org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker ] Bean 'dataSource' of type [com.zaxxer.hikari.HikariDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 12:40:05 [ INFO ] [ org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker ] Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 12:40:05 [ INFO ] [ org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker ] Bean 'org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration' of type [org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 12:40:05 [ INFO ] [ org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker ] Bean 'spring.transaction-org.springframework.boot.autoconfigure.transaction.TransactionProperties' of type [org.springframework.boot.autoconfigure.transaction.TransactionProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 12:40:05 [ INFO ] [ org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker ] Bean 'platformTransactionManagerCustomizers' of type [org.springframework.boot.autoconfigure.transaction.TransactionManagerCustomizers] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 12:40:05 [ INFO ] [ org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker ] Bean 'transactionManager' of type [org.springframework.jdbc.datasource.DataSourceTransactionManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 12:40:05 [ INFO ] [ org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker ] Bean 'transactionManagerConfig' of type [com.httd.api.aop.TransactionManagerConfig$$EnhancerBySpringCGLIB$$d3feb7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 12:40:05 [ INFO ] [ org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker ] Bean 'txAdvice' of type [org.springframework.transaction.interceptor.TransactionInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 12:40:05 [ INFO ] [ org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker ] Bean 'txAdviceAdvisor' of type [org.springframework.aop.support.DefaultPointcutAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 12:40:05 [ INFO ] [ org.springframework.boot.web.embedded.tomcat.TomcatWebServer ] Tomcat initialized with port(s): 7706 (http)
+2020-06-26 12:40:05 [ INFO ] [ org.apache.coyote.http11.Http11NioProtocol ] Initializing ProtocolHandler ["http-nio-7706"]
+2020-06-26 12:40:05 [ INFO ] [ org.apache.catalina.core.StandardService ] Starting service [Tomcat]
+2020-06-26 12:40:05 [ INFO ] [ org.apache.catalina.core.StandardEngine ] Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-06-26 12:40:05 [ INFO ] [ org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] ] Initializing Spring embedded WebApplicationContext
+2020-06-26 12:40:05 [ INFO ] [ org.springframework.web.context.ContextLoader ] Root WebApplicationContext: initialization completed in 1650 ms
+2020-06-26 12:40:07 [ INFO ] [ org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler ] Initializing ExecutorService 'taskScheduler'
+2020-06-26 12:40:07 [ INFO ] [ org.apache.coyote.http11.Http11NioProtocol ] Starting ProtocolHandler ["http-nio-7706"]
+2020-06-26 12:40:07 [ INFO ] [ org.springframework.boot.web.embedded.tomcat.TomcatWebServer ] Tomcat started on port(s): 7706 (http) with context path ''
+2020-06-26 12:40:07 [ INFO ] [ com.httd.api.AdminApplication ] Started AdminApplication in 3.679 seconds (JVM running for 5.213)
+2020-06-26 12:40:07 [ INFO ] [ com.httd.api.lifecycle.ApplicationRunnerImpl ] 项目启动后首次执行
+2020-06-26 12:40:07 [ INFO ] [ com.httd.api.AdminApplication ] 项目启动成功
+2020-06-26 12:41:12 [ INFO ] [ org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] ] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-26 12:41:12 [ INFO ] [ org.springframework.web.servlet.DispatcherServlet ] Initializing Servlet 'dispatcherServlet'
+2020-06-26 12:41:12 [ INFO ] [ org.springframework.web.servlet.DispatcherServlet ] Completed initialization in 15 ms
+2020-06-26 12:41:12 [ INFO ] [ com.zaxxer.hikari.HikariDataSource ] Retail_HikariCP - Starting...
+2020-06-26 12:41:12 [ INFO ] [ com.zaxxer.hikari.HikariDataSource ] Retail_HikariCP - Start completed.
+2020-06-26 12:41:12 [ INFO ] [ com.httd.api.aop.TimeInterceptor ] 方法findHomeMenuList,请求耗时[344]毫秒
+2020-06-26 12:41:12 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] .....加密返回参数开始.....
+2020-06-26 12:41:12 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] .....加密返回参数结束.....
+2020-06-26 12:41:12 [ INFO ] [ com.httd.api.aop.TimeInterceptor ] 方法findHomeNoticeList,请求耗时[357]毫秒
+2020-06-26 12:41:12 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] .....加密返回参数开始.....
+2020-06-26 12:41:12 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] .....加密返回参数结束.....
+2020-06-26 12:41:12 [ INFO ] [ com.httd.api.aop.TimeInterceptor ] 方法findHomeBannerList,请求耗时[370]毫秒
+2020-06-26 12:41:12 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] .....加密返回参数开始.....
+2020-06-26 12:41:12 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] .....加密返回参数结束.....
+2020-06-26 12:41:12 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] 方法[findHomeNoticeList]返回加密数据:
+{"code":"0","data":[{"jumpType":0,"noticeTitle":"订单","noticeContent":"订单内容"}],"message":"SUCCESS"}
+2020-06-26 12:41:12 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] 方法[findHomeMenuList]返回加密数据:
+{"code":"0","data":[],"message":"SUCCESS"}
+2020-06-26 12:41:12 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] 方法[findHomeBannerList]返回加密数据:
+{"code":"0","data":[],"message":"SUCCESS"}
+2020-06-26 12:44:08 [ INFO ] [ com.httd.api.aop.TimeInterceptor ] 方法findHomeMenuList,请求耗时[45]毫秒
+2020-06-26 12:44:08 [ INFO ] [ com.httd.api.aop.TimeInterceptor ] 方法findHomeBannerList,请求耗时[45]毫秒
+2020-06-26 12:44:08 [ INFO ] [ com.httd.api.aop.TimeInterceptor ] 方法findHomeNoticeList,请求耗时[45]毫秒
+2020-06-26 12:44:08 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] .....加密返回参数开始.....
+2020-06-26 12:44:08 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] .....加密返回参数开始.....
+2020-06-26 12:44:08 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] .....加密返回参数结束.....
+2020-06-26 12:44:08 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] .....加密返回参数开始.....
+2020-06-26 12:44:08 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] .....加密返回参数结束.....
+2020-06-26 12:44:08 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] .....加密返回参数结束.....
+2020-06-26 12:44:08 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] 方法[findHomeBannerList]返回加密数据:
+{"code":"0","data":[],"message":"SUCCESS"}
+2020-06-26 12:44:08 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] 方法[findHomeMenuList]返回加密数据:
+{"code":"0","data":[],"message":"SUCCESS"}
+2020-06-26 12:44:08 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] 方法[findHomeNoticeList]返回加密数据:
+{"code":"0","data":[{"jumpType":0,"noticeTitle":"订单","noticeContent":"订单内容"}],"message":"SUCCESS"}
+2020-06-26 12:44:34 [ INFO ] [ com.httd.api.aop.TimeInterceptor ] 方法findHomeMenuList,请求耗时[38]毫秒
+2020-06-26 12:44:34 [ INFO ] [ com.httd.api.aop.TimeInterceptor ] 方法findHomeBannerList,请求耗时[38]毫秒
+2020-06-26 12:44:34 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] .....加密返回参数开始.....
+2020-06-26 12:44:34 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] .....加密返回参数开始.....
+2020-06-26 12:44:34 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] .....加密返回参数结束.....
+2020-06-26 12:44:34 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] .....加密返回参数结束.....
+2020-06-26 12:44:34 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] 方法[findHomeBannerList]返回加密数据:
+{"code":"0","data":[],"message":"SUCCESS"}
+2020-06-26 12:44:34 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] 方法[findHomeMenuList]返回加密数据:
+{"code":"0","data":[],"message":"SUCCESS"}
+2020-06-26 12:44:34 [ INFO ] [ com.httd.api.aop.TimeInterceptor ] 方法findHomeNoticeList,请求耗时[43]毫秒
+2020-06-26 12:44:34 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] .....加密返回参数开始.....
+2020-06-26 12:44:34 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] .....加密返回参数结束.....
+2020-06-26 12:44:34 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] 方法[findHomeNoticeList]返回加密数据:
+{"code":"0","data":[{"jumpType":0,"noticeTitle":"订单","noticeContent":"订单内容"}],"message":"SUCCESS"}
+2020-06-26 12:45:22 [ INFO ] [ com.httd.api.aop.TimeInterceptor ] 方法findHomeBannerList,请求耗时[24]毫秒
+2020-06-26 12:45:22 [ INFO ] [ com.httd.api.aop.TimeInterceptor ] 方法findHomeNoticeList,请求耗时[23]毫秒
+2020-06-26 12:45:22 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] .....加密返回参数开始.....
+2020-06-26 12:45:22 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] .....加密返回参数开始.....
+2020-06-26 12:45:22 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] .....加密返回参数结束.....
+2020-06-26 12:45:22 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] .....加密返回参数结束.....
+2020-06-26 12:45:22 [ INFO ] [ com.httd.api.aop.TimeInterceptor ] 方法findHomeMenuList,请求耗时[25]毫秒
+2020-06-26 12:45:22 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] 方法[findHomeNoticeList]返回加密数据:
+{"code":"0","data":[{"jumpType":0,"noticeTitle":"订单","noticeContent":"订单内容"}],"message":"SUCCESS"}
+2020-06-26 12:45:22 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] 方法[findHomeBannerList]返回加密数据:
+{"code":"0","data":[],"message":"SUCCESS"}
+2020-06-26 12:45:22 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] .....加密返回参数开始.....
+2020-06-26 12:45:22 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] .....加密返回参数结束.....
+2020-06-26 12:45:22 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] 方法[findHomeMenuList]返回加密数据:
+{"code":"0","data":[],"message":"SUCCESS"}
+2020-06-26 12:45:25 [ INFO ] [ org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler ] Shutting down ExecutorService 'taskScheduler'
+2020-06-26 12:45:25 [ INFO ] [ com.zaxxer.hikari.HikariDataSource ] Retail_HikariCP - Shutdown initiated...
+2020-06-26 12:45:25 [ INFO ] [ com.zaxxer.hikari.HikariDataSource ] Retail_HikariCP - Shutdown completed.
+2020-06-26 12:55:59 [ INFO ] [ com.httd.api.AdminApplication ] Starting AdminApplication on lscdeMacBook-Pro.local with PID 6153 (/Volumes/LSC/recat-native/httd-api/target/classes started by lsc in /Volumes/LSC/recat-native/httd-api)
+2020-06-26 12:55:59 [ INFO ] [ com.httd.api.AdminApplication ] The following profiles are active: localhost
+2020-06-26 12:56:00 [ INFO ] [ org.springframework.data.repository.config.RepositoryConfigurationDelegate ] Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-06-26 12:56:00 [ INFO ] [ org.springframework.data.repository.config.RepositoryConfigurationDelegate ] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-06-26 12:56:00 [ INFO ] [ org.springframework.data.repository.config.RepositoryConfigurationDelegate ] Finished Spring Data repository scanning in 18ms. Found 0 Redis repository interfaces.
+2020-06-26 12:56:00 [ INFO ] [ org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker ] Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration$DataSourceTransactionManagerConfiguration' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration$DataSourceTransactionManagerConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 12:56:00 [ INFO ] [ org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker ] Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 12:56:00 [ INFO ] [ org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker ] Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 12:56:00 [ INFO ] [ org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker ] Bean 'dataSource' of type [com.zaxxer.hikari.HikariDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 12:56:00 [ INFO ] [ org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker ] Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 12:56:00 [ INFO ] [ org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker ] Bean 'org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration' of type [org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 12:56:00 [ INFO ] [ org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker ] Bean 'spring.transaction-org.springframework.boot.autoconfigure.transaction.TransactionProperties' of type [org.springframework.boot.autoconfigure.transaction.TransactionProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 12:56:00 [ INFO ] [ org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker ] Bean 'platformTransactionManagerCustomizers' of type [org.springframework.boot.autoconfigure.transaction.TransactionManagerCustomizers] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 12:56:00 [ INFO ] [ org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker ] Bean 'transactionManager' of type [org.springframework.jdbc.datasource.DataSourceTransactionManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 12:56:00 [ INFO ] [ org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker ] Bean 'transactionManagerConfig' of type [com.httd.api.aop.TransactionManagerConfig$$EnhancerBySpringCGLIB$$b4cf00ef] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 12:56:00 [ INFO ] [ org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker ] Bean 'txAdvice' of type [org.springframework.transaction.interceptor.TransactionInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 12:56:00 [ INFO ] [ org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker ] Bean 'txAdviceAdvisor' of type [org.springframework.aop.support.DefaultPointcutAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 12:56:01 [ INFO ] [ org.springframework.boot.web.embedded.tomcat.TomcatWebServer ] Tomcat initialized with port(s): 7706 (http)
+2020-06-26 12:56:01 [ INFO ] [ org.apache.coyote.http11.Http11NioProtocol ] Initializing ProtocolHandler ["http-nio-7706"]
+2020-06-26 12:56:01 [ INFO ] [ org.apache.catalina.core.StandardService ] Starting service [Tomcat]
+2020-06-26 12:56:01 [ INFO ] [ org.apache.catalina.core.StandardEngine ] Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-06-26 12:56:01 [ INFO ] [ org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] ] Initializing Spring embedded WebApplicationContext
+2020-06-26 12:56:01 [ INFO ] [ org.springframework.web.context.ContextLoader ] Root WebApplicationContext: initialization completed in 1309 ms
+2020-06-26 12:56:02 [ INFO ] [ org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler ] Initializing ExecutorService 'taskScheduler'
+2020-06-26 12:56:02 [ INFO ] [ org.apache.coyote.http11.Http11NioProtocol ] Starting ProtocolHandler ["http-nio-7706"]
+2020-06-26 12:56:02 [ INFO ] [ org.springframework.boot.web.embedded.tomcat.TomcatWebServer ] Tomcat started on port(s): 7706 (http) with context path ''
+2020-06-26 12:56:02 [ INFO ] [ com.httd.api.AdminApplication ] Started AdminApplication in 3.02 seconds (JVM running for 3.854)
+2020-06-26 12:56:02 [ INFO ] [ com.httd.api.lifecycle.ApplicationRunnerImpl ] 项目启动后首次执行
+2020-06-26 12:56:02 [ INFO ] [ com.httd.api.AdminApplication ] 项目启动成功
+2020-06-26 13:59:15 [ INFO ] [ org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler ] Shutting down ExecutorService 'taskScheduler'
+2020-06-26 13:59:18 [ INFO ] [ com.httd.api.AdminApplication ] Starting AdminApplication on lscdeMacBook-Pro.local with PID 7937 (/Volumes/LSC/recat-native/httd-api/target/classes started by lsc in /Volumes/LSC/recat-native/httd-api)
+2020-06-26 13:59:19 [ INFO ] [ com.httd.api.AdminApplication ] The following profiles are active: localhost
+2020-06-26 13:59:19 [ INFO ] [ org.springframework.data.repository.config.RepositoryConfigurationDelegate ] Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-06-26 13:59:19 [ INFO ] [ org.springframework.data.repository.config.RepositoryConfigurationDelegate ] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-06-26 13:59:19 [ INFO ] [ org.springframework.data.repository.config.RepositoryConfigurationDelegate ] Finished Spring Data repository scanning in 17ms. Found 0 Redis repository interfaces.
+2020-06-26 13:59:19 [ INFO ] [ org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker ] Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration$DataSourceTransactionManagerConfiguration' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration$DataSourceTransactionManagerConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 13:59:19 [ INFO ] [ org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker ] Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 13:59:19 [ INFO ] [ org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker ] Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 13:59:19 [ INFO ] [ org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker ] Bean 'dataSource' of type [com.zaxxer.hikari.HikariDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 13:59:19 [ INFO ] [ org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker ] Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 13:59:19 [ INFO ] [ org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker ] Bean 'org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration' of type [org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 13:59:19 [ INFO ] [ org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker ] Bean 'spring.transaction-org.springframework.boot.autoconfigure.transaction.TransactionProperties' of type [org.springframework.boot.autoconfigure.transaction.TransactionProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 13:59:19 [ INFO ] [ org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker ] Bean 'platformTransactionManagerCustomizers' of type [org.springframework.boot.autoconfigure.transaction.TransactionManagerCustomizers] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 13:59:19 [ INFO ] [ org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker ] Bean 'transactionManager' of type [org.springframework.jdbc.datasource.DataSourceTransactionManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 13:59:19 [ INFO ] [ org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker ] Bean 'transactionManagerConfig' of type [com.httd.api.aop.TransactionManagerConfig$$EnhancerBySpringCGLIB$$64403e46] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 13:59:20 [ INFO ] [ org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker ] Bean 'txAdvice' of type [org.springframework.transaction.interceptor.TransactionInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 13:59:20 [ INFO ] [ org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker ] Bean 'txAdviceAdvisor' of type [org.springframework.aop.support.DefaultPointcutAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 13:59:20 [ INFO ] [ org.springframework.boot.web.embedded.tomcat.TomcatWebServer ] Tomcat initialized with port(s): 7706 (http)
+2020-06-26 13:59:20 [ INFO ] [ org.apache.coyote.http11.Http11NioProtocol ] Initializing ProtocolHandler ["http-nio-7706"]
+2020-06-26 13:59:20 [ INFO ] [ org.apache.catalina.core.StandardService ] Starting service [Tomcat]
+2020-06-26 13:59:20 [ INFO ] [ org.apache.catalina.core.StandardEngine ] Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-06-26 13:59:20 [ INFO ] [ org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] ] Initializing Spring embedded WebApplicationContext
+2020-06-26 13:59:20 [ INFO ] [ org.springframework.web.context.ContextLoader ] Root WebApplicationContext: initialization completed in 1256 ms
+2020-06-26 13:59:21 [ INFO ] [ org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler ] Initializing ExecutorService 'taskScheduler'
+2020-06-26 13:59:21 [ INFO ] [ org.apache.coyote.http11.Http11NioProtocol ] Starting ProtocolHandler ["http-nio-7706"]
+2020-06-26 13:59:21 [ INFO ] [ org.springframework.boot.web.embedded.tomcat.TomcatWebServer ] Tomcat started on port(s): 7706 (http) with context path ''
+2020-06-26 13:59:21 [ INFO ] [ com.httd.api.AdminApplication ] Started AdminApplication in 2.901 seconds (JVM running for 3.554)
+2020-06-26 13:59:21 [ INFO ] [ com.httd.api.lifecycle.ApplicationRunnerImpl ] 项目启动后首次执行
+2020-06-26 13:59:21 [ INFO ] [ com.httd.api.AdminApplication ] 项目启动成功
+2020-06-26 14:08:43 [ INFO ] [ org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] ] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-26 14:08:43 [ INFO ] [ org.springframework.web.servlet.DispatcherServlet ] Initializing Servlet 'dispatcherServlet'
+2020-06-26 14:08:43 [ INFO ] [ org.springframework.web.servlet.DispatcherServlet ] Completed initialization in 10 ms
+2020-06-26 14:08:43 [ INFO ] [ com.zaxxer.hikari.HikariDataSource ] Retail_HikariCP - Starting...
+2020-06-26 14:08:43 [ INFO ] [ com.zaxxer.hikari.HikariDataSource ] Retail_HikariCP - Start completed.
+2020-06-26 14:08:44 [ INFO ] [ com.httd.api.aop.TimeInterceptor ] 方法findHomeBannerList,请求耗时[337]毫秒
+2020-06-26 14:08:44 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] .....加密返回参数开始.....
+2020-06-26 14:08:44 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] .....加密返回参数结束.....
+2020-06-26 14:08:44 [ INFO ] [ com.httd.api.aop.TimeInterceptor ] 方法findHomeNoticeList,请求耗时[347]毫秒
+2020-06-26 14:08:44 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] .....加密返回参数开始.....
+2020-06-26 14:08:44 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] .....加密返回参数结束.....
+2020-06-26 14:08:44 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] 方法[findHomeBannerList]返回加密数据:
+{"code":"0","data":[],"message":"SUCCESS"}
+2020-06-26 14:08:44 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] 方法[findHomeNoticeList]返回加密数据:
+{"code":"0","data":[{"jumpType":0,"noticeTitle":"订单","noticeContent":"订单内容"}],"message":"SUCCESS"}
+2020-06-26 14:08:44 [ INFO ] [ com.httd.api.aop.TimeInterceptor ] 方法findHomeMenuList,请求耗时[418]毫秒
+2020-06-26 14:08:44 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] .....加密返回参数开始.....
+2020-06-26 14:08:44 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] .....加密返回参数结束.....
+2020-06-26 14:08:44 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] 方法[findHomeMenuList]返回加密数据:
+{"code":"0","data":[],"message":"SUCCESS"}
+2020-06-26 14:08:59 [ INFO ] [ com.httd.api.aop.TimeInterceptor ] 方法findHomeMenuList,请求耗时[28]毫秒
+2020-06-26 14:08:59 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] .....加密返回参数开始.....
+2020-06-26 14:08:59 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] .....加密返回参数结束.....
+2020-06-26 14:08:59 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] 方法[findHomeMenuList]返回加密数据:
+{"code":"0","data":[],"message":"SUCCESS"}
+2020-06-26 14:08:59 [ INFO ] [ com.httd.api.aop.TimeInterceptor ] 方法findHomeBannerList,请求耗时[35]毫秒
+2020-06-26 14:08:59 [ INFO ] [ com.httd.api.aop.TimeInterceptor ] 方法findHomeNoticeList,请求耗时[35]毫秒
+2020-06-26 14:08:59 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] .....加密返回参数开始.....
+2020-06-26 14:08:59 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] .....加密返回参数开始.....
+2020-06-26 14:08:59 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] .....加密返回参数结束.....
+2020-06-26 14:08:59 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] .....加密返回参数结束.....
+2020-06-26 14:08:59 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] 方法[findHomeBannerList]返回加密数据:
+{"code":"0","data":[],"message":"SUCCESS"}
+2020-06-26 14:08:59 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] 方法[findHomeNoticeList]返回加密数据:
+{"code":"0","data":[{"jumpType":0,"noticeTitle":"订单","noticeContent":"订单内容"}],"message":"SUCCESS"}
+2020-06-26 14:09:34 [ INFO ] [ com.httd.api.aop.TimeInterceptor ] 方法findHomeBannerList,请求耗时[40]毫秒
+2020-06-26 14:09:34 [ INFO ] [ com.httd.api.aop.TimeInterceptor ] 方法findHomeMenuList,请求耗时[40]毫秒
+2020-06-26 14:09:34 [ INFO ] [ com.httd.api.aop.TimeInterceptor ] 方法findHomeNoticeList,请求耗时[40]毫秒
+2020-06-26 14:09:34 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] .....加密返回参数开始.....
+2020-06-26 14:09:34 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] .....加密返回参数开始.....
+2020-06-26 14:09:34 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] .....加密返回参数结束.....
+2020-06-26 14:09:34 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] .....加密返回参数结束.....
+2020-06-26 14:09:34 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] .....加密返回参数开始.....
+2020-06-26 14:09:34 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] 方法[findHomeMenuList]返回加密数据:
+{"code":"0","data":[],"message":"SUCCESS"}
+2020-06-26 14:09:34 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] .....加密返回参数结束.....
+2020-06-26 14:09:34 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] 方法[findHomeBannerList]返回加密数据:
+{"code":"0","data":[],"message":"SUCCESS"}
+2020-06-26 14:09:34 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] 方法[findHomeNoticeList]返回加密数据:
+{"code":"0","data":[{"jumpType":0,"noticeTitle":"订单","noticeContent":"订单内容"}],"message":"SUCCESS"}
+2020-06-26 14:09:41 [ INFO ] [ org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler ] Shutting down ExecutorService 'taskScheduler'
+2020-06-26 14:09:41 [ INFO ] [ com.zaxxer.hikari.HikariDataSource ] Retail_HikariCP - Shutdown initiated...
+2020-06-26 14:09:41 [ INFO ] [ com.zaxxer.hikari.HikariDataSource ] Retail_HikariCP - Shutdown completed.
+2020-06-26 14:13:38 [ INFO ] [ com.httd.api.AdminApplication ] Starting AdminApplication on lscdeMacBook-Pro.local with PID 8255 (/Volumes/LSC/recat-native/httd-api/target/classes started by lsc in /Volumes/LSC/recat-native/httd-api)
+2020-06-26 14:13:38 [ INFO ] [ com.httd.api.AdminApplication ] The following profiles are active: localhost
+2020-06-26 14:13:38 [ INFO ] [ org.springframework.data.repository.config.RepositoryConfigurationDelegate ] Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-06-26 14:13:38 [ INFO ] [ org.springframework.data.repository.config.RepositoryConfigurationDelegate ] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-06-26 14:13:38 [ INFO ] [ org.springframework.data.repository.config.RepositoryConfigurationDelegate ] Finished Spring Data repository scanning in 20ms. Found 0 Redis repository interfaces.
+2020-06-26 14:13:39 [ INFO ] [ org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker ] Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration$DataSourceTransactionManagerConfiguration' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration$DataSourceTransactionManagerConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 14:13:39 [ INFO ] [ org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker ] Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 14:13:39 [ INFO ] [ org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker ] Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 14:13:39 [ INFO ] [ org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker ] Bean 'dataSource' of type [com.zaxxer.hikari.HikariDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 14:13:39 [ INFO ] [ org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker ] Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 14:13:39 [ INFO ] [ org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker ] Bean 'org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration' of type [org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 14:13:39 [ INFO ] [ org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker ] Bean 'spring.transaction-org.springframework.boot.autoconfigure.transaction.TransactionProperties' of type [org.springframework.boot.autoconfigure.transaction.TransactionProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 14:13:39 [ INFO ] [ org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker ] Bean 'platformTransactionManagerCustomizers' of type [org.springframework.boot.autoconfigure.transaction.TransactionManagerCustomizers] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 14:13:39 [ INFO ] [ org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker ] Bean 'transactionManager' of type [org.springframework.jdbc.datasource.DataSourceTransactionManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 14:13:39 [ INFO ] [ org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker ] Bean 'transactionManagerConfig' of type [com.httd.api.aop.TransactionManagerConfig$$EnhancerBySpringCGLIB$$5eb0c14a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 14:13:39 [ INFO ] [ org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker ] Bean 'txAdvice' of type [org.springframework.transaction.interceptor.TransactionInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 14:13:39 [ INFO ] [ org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker ] Bean 'txAdviceAdvisor' of type [org.springframework.aop.support.DefaultPointcutAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 14:13:39 [ INFO ] [ org.springframework.boot.web.embedded.tomcat.TomcatWebServer ] Tomcat initialized with port(s): 7706 (http)
+2020-06-26 14:13:39 [ INFO ] [ org.apache.coyote.http11.Http11NioProtocol ] Initializing ProtocolHandler ["http-nio-7706"]
+2020-06-26 14:13:39 [ INFO ] [ org.apache.catalina.core.StandardService ] Starting service [Tomcat]
+2020-06-26 14:13:39 [ INFO ] [ org.apache.catalina.core.StandardEngine ] Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-06-26 14:13:39 [ INFO ] [ org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] ] Initializing Spring embedded WebApplicationContext
+2020-06-26 14:13:39 [ INFO ] [ org.springframework.web.context.ContextLoader ] Root WebApplicationContext: initialization completed in 1427 ms
+2020-06-26 14:13:41 [ INFO ] [ org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler ] Initializing ExecutorService 'taskScheduler'
+2020-06-26 14:13:41 [ INFO ] [ org.apache.coyote.http11.Http11NioProtocol ] Starting ProtocolHandler ["http-nio-7706"]
+2020-06-26 14:13:41 [ INFO ] [ org.springframework.boot.web.embedded.tomcat.TomcatWebServer ] Tomcat started on port(s): 7706 (http) with context path ''
+2020-06-26 14:13:41 [ INFO ] [ com.httd.api.AdminApplication ] Started AdminApplication in 3.585 seconds (JVM running for 4.419)
+2020-06-26 14:13:41 [ INFO ] [ com.httd.api.lifecycle.ApplicationRunnerImpl ] 项目启动后首次执行
+2020-06-26 14:13:41 [ INFO ] [ com.httd.api.AdminApplication ] 项目启动成功
+2020-06-26 14:15:09 [ INFO ] [ org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] ] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-26 14:15:09 [ INFO ] [ org.springframework.web.servlet.DispatcherServlet ] Initializing Servlet 'dispatcherServlet'
+2020-06-26 14:15:09 [ INFO ] [ org.springframework.web.servlet.DispatcherServlet ] Completed initialization in 8 ms
+2020-06-26 14:15:09 [ INFO ] [ com.zaxxer.hikari.HikariDataSource ] Retail_HikariCP - Starting...
+2020-06-26 14:15:09 [ INFO ] [ com.zaxxer.hikari.HikariDataSource ] Retail_HikariCP - Start completed.
+2020-06-26 14:15:10 [ INFO ] [ com.httd.api.aop.TimeInterceptor ] 方法findHomeBannerList,请求耗时[369]毫秒
+2020-06-26 14:15:10 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] .....加密返回参数开始.....
+2020-06-26 14:15:10 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] .....加密返回参数结束.....
+2020-06-26 14:15:10 [ INFO ] [ com.httd.api.aop.TimeInterceptor ] 方法findHomeNoticeList,请求耗时[383]毫秒
+2020-06-26 14:15:10 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] .....加密返回参数开始.....
+2020-06-26 14:15:10 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] .....加密返回参数结束.....
+2020-06-26 14:15:10 [ INFO ] [ com.httd.api.aop.TimeInterceptor ] 方法findHomeMenuList,请求耗时[395]毫秒
+2020-06-26 14:15:10 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] .....加密返回参数开始.....
+2020-06-26 14:15:10 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] .....加密返回参数结束.....
+2020-06-26 14:15:10 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] 方法[findHomeBannerList]返回加密数据:
+{"code":"0","data":[],"message":"SUCCESS"}
+2020-06-26 14:15:10 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] 方法[findHomeMenuList]返回加密数据:
+{"code":"0","data":[],"message":"SUCCESS"}
+2020-06-26 14:15:10 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] 方法[findHomeNoticeList]返回加密数据:
+{"code":"0","data":[{"jumpType":0,"noticeTitle":"订单","noticeContent":"订单内容"}],"message":"SUCCESS"}
+2020-06-26 14:16:57 [ INFO ] [ com.httd.api.aop.TimeInterceptor ] 方法findHomeMenuList,请求耗时[35]毫秒
+2020-06-26 14:16:57 [ INFO ] [ com.httd.api.aop.TimeInterceptor ] 方法findHomeBannerList,请求耗时[35]毫秒
+2020-06-26 14:16:57 [ INFO ] [ com.httd.api.aop.TimeInterceptor ] 方法findHomeNoticeList,请求耗时[35]毫秒
+2020-06-26 14:16:57 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] .....加密返回参数开始.....
+2020-06-26 14:16:57 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] .....加密返回参数开始.....
+2020-06-26 14:16:57 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] .....加密返回参数开始.....
+2020-06-26 14:16:57 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] .....加密返回参数结束.....
+2020-06-26 14:16:57 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] .....加密返回参数结束.....
+2020-06-26 14:16:57 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] .....加密返回参数结束.....
+2020-06-26 14:16:57 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] 方法[findHomeBannerList]返回加密数据:
+{"code":"0","data":[],"message":"SUCCESS"}
+2020-06-26 14:16:57 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] 方法[findHomeMenuList]返回加密数据:
+{"code":"0","data":[],"message":"SUCCESS"}
+2020-06-26 14:16:57 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] 方法[findHomeNoticeList]返回加密数据:
+{"code":"0","data":[{"jumpType":0,"noticeTitle":"订单","noticeContent":"订单内容"}],"message":"SUCCESS"}
+2020-06-26 14:17:11 [ INFO ] [ com.httd.api.aop.TimeInterceptor ] 方法findHomeMenuList,请求耗时[24]毫秒
+2020-06-26 14:17:11 [ INFO ] [ com.httd.api.aop.TimeInterceptor ] 方法findHomeBannerList,请求耗时[24]毫秒
+2020-06-26 14:17:11 [ INFO ] [ com.httd.api.aop.TimeInterceptor ] 方法findHomeNoticeList,请求耗时[25]毫秒
+2020-06-26 14:17:11 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] .....加密返回参数开始.....
+2020-06-26 14:17:11 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] .....加密返回参数开始.....
+2020-06-26 14:17:11 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] .....加密返回参数结束.....
+2020-06-26 14:17:11 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] .....加密返回参数开始.....
+2020-06-26 14:17:11 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] .....加密返回参数结束.....
+2020-06-26 14:17:11 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] .....加密返回参数结束.....
+2020-06-26 14:17:11 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] 方法[findHomeMenuList]返回加密数据:
+{"code":"0","data":[],"message":"SUCCESS"}
+2020-06-26 14:17:11 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] 方法[findHomeBannerList]返回加密数据:
+{"code":"0","data":[],"message":"SUCCESS"}
+2020-06-26 14:17:11 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] 方法[findHomeNoticeList]返回加密数据:
+{"code":"0","data":[{"jumpType":0,"noticeTitle":"订单","noticeContent":"订单内容"}],"message":"SUCCESS"}
+2020-06-26 14:19:17 [ INFO ] [ com.httd.api.aop.TimeInterceptor ] 方法findHomeMenuList,请求耗时[33]毫秒
+2020-06-26 14:19:17 [ INFO ] [ com.httd.api.aop.TimeInterceptor ] 方法findHomeBannerList,请求耗时[33]毫秒
+2020-06-26 14:19:17 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] .....加密返回参数开始.....
+2020-06-26 14:19:17 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] .....加密返回参数开始.....
+2020-06-26 14:19:17 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] .....加密返回参数结束.....
+2020-06-26 14:19:17 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] .....加密返回参数结束.....
+2020-06-26 14:19:17 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] 方法[findHomeBannerList]返回加密数据:
+{"code":"0","data":[],"message":"SUCCESS"}
+2020-06-26 14:19:17 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] 方法[findHomeMenuList]返回加密数据:
+{"code":"0","data":[],"message":"SUCCESS"}
+2020-06-26 14:19:17 [ INFO ] [ com.httd.api.aop.TimeInterceptor ] 方法findHomeNoticeList,请求耗时[41]毫秒
+2020-06-26 14:19:17 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] .....加密返回参数开始.....
+2020-06-26 14:19:17 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] .....加密返回参数结束.....
+2020-06-26 14:19:17 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] 方法[findHomeNoticeList]返回加密数据:
+{"code":"0","data":[{"jumpType":0,"noticeTitle":"订单","noticeContent":"订单内容"}],"message":"SUCCESS"}
+2020-06-26 14:19:32 [ INFO ] [ com.httd.api.aop.TimeInterceptor ] 方法findHomeBannerList,请求耗时[34]毫秒
+2020-06-26 14:19:32 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] .....加密返回参数开始.....
+2020-06-26 14:19:32 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] .....加密返回参数结束.....
+2020-06-26 14:19:32 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] 方法[findHomeBannerList]返回加密数据:
+{"code":"0","data":[],"message":"SUCCESS"}
+2020-06-26 14:19:32 [ INFO ] [ com.httd.api.aop.TimeInterceptor ] 方法findHomeNoticeList,请求耗时[32]毫秒
+2020-06-26 14:19:32 [ INFO ] [ com.httd.api.aop.TimeInterceptor ] 方法findHomeMenuList,请求耗时[32]毫秒
+2020-06-26 14:19:32 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] .....加密返回参数开始.....
+2020-06-26 14:19:32 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] .....加密返回参数开始.....
+2020-06-26 14:19:32 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] .....加密返回参数结束.....
+2020-06-26 14:19:32 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] .....加密返回参数结束.....
+2020-06-26 14:19:32 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] 方法[findHomeMenuList]返回加密数据:
+{"code":"0","data":[],"message":"SUCCESS"}
+2020-06-26 14:19:32 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] 方法[findHomeNoticeList]返回加密数据:
+{"code":"0","data":[{"jumpType":0,"noticeTitle":"订单","noticeContent":"订单内容"}],"message":"SUCCESS"}
+2020-06-26 14:20:03 [ INFO ] [ com.httd.api.aop.TimeInterceptor ] 方法findHomeMenuList,请求耗时[34]毫秒
+2020-06-26 14:20:03 [ INFO ] [ com.httd.api.aop.TimeInterceptor ] 方法findHomeBannerList,请求耗时[35]毫秒
+2020-06-26 14:20:03 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] .....加密返回参数开始.....
+2020-06-26 14:20:03 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] .....加密返回参数结束.....
+2020-06-26 14:20:03 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] .....加密返回参数开始.....
+2020-06-26 14:20:03 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] .....加密返回参数结束.....
+2020-06-26 14:20:03 [ INFO ] [ com.httd.api.aop.TimeInterceptor ] 方法findHomeNoticeList,请求耗时[35]毫秒
+2020-06-26 14:20:03 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] .....加密返回参数开始.....
+2020-06-26 14:20:03 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] .....加密返回参数结束.....
+2020-06-26 14:20:03 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] 方法[findHomeBannerList]返回加密数据:
+{"code":"0","data":[],"message":"SUCCESS"}
+2020-06-26 14:20:03 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] 方法[findHomeMenuList]返回加密数据:
+{"code":"0","data":[],"message":"SUCCESS"}
+2020-06-26 14:20:03 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] 方法[findHomeNoticeList]返回加密数据:
+{"code":"0","data":[{"jumpType":0,"noticeTitle":"订单","noticeContent":"订单内容"}],"message":"SUCCESS"}
+2020-06-26 14:20:30 [ INFO ] [ com.httd.api.aop.TimeInterceptor ] 方法findHomeMenuList,请求耗时[31]毫秒
+2020-06-26 14:20:30 [ INFO ] [ com.httd.api.aop.TimeInterceptor ] 方法findHomeBannerList,请求耗时[31]毫秒
+2020-06-26 14:20:30 [ INFO ] [ com.httd.api.aop.TimeInterceptor ] 方法findHomeNoticeList,请求耗时[31]毫秒
+2020-06-26 14:20:30 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] .....加密返回参数开始.....
+2020-06-26 14:20:30 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] .....加密返回参数开始.....
+2020-06-26 14:20:30 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] .....加密返回参数开始.....
+2020-06-26 14:20:30 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] .....加密返回参数结束.....
+2020-06-26 14:20:30 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] .....加密返回参数结束.....
+2020-06-26 14:20:30 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] .....加密返回参数结束.....
+2020-06-26 14:20:30 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] 方法[findHomeMenuList]返回加密数据:
+{"code":"0","data":[],"message":"SUCCESS"}
+2020-06-26 14:20:30 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] 方法[findHomeNoticeList]返回加密数据:
+{"code":"0","data":[{"jumpType":0,"noticeTitle":"订单","noticeContent":"订单内容"}],"message":"SUCCESS"}
+2020-06-26 14:20:30 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] 方法[findHomeBannerList]返回加密数据:
+{"code":"0","data":[],"message":"SUCCESS"}
+2020-06-26 14:20:46 [ INFO ] [ com.httd.api.aop.TimeInterceptor ] 方法findHomeBannerList,请求耗时[27]毫秒
+2020-06-26 14:20:46 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] .....加密返回参数开始.....
+2020-06-26 14:20:46 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] .....加密返回参数结束.....
+2020-06-26 14:20:46 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] 方法[findHomeBannerList]返回加密数据:
+{"code":"0","data":[],"message":"SUCCESS"}
+2020-06-26 14:20:46 [ INFO ] [ com.httd.api.aop.TimeInterceptor ] 方法findHomeMenuList,请求耗时[32]毫秒
+2020-06-26 14:20:46 [ INFO ] [ com.httd.api.aop.TimeInterceptor ] 方法findHomeNoticeList,请求耗时[32]毫秒
+2020-06-26 14:20:46 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] .....加密返回参数开始.....
+2020-06-26 14:20:46 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] .....加密返回参数开始.....
+2020-06-26 14:20:46 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] .....加密返回参数结束.....
+2020-06-26 14:20:46 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] .....加密返回参数结束.....
+2020-06-26 14:20:46 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] 方法[findHomeNoticeList]返回加密数据:
+{"code":"0","data":[{"jumpType":0,"noticeTitle":"订单","noticeContent":"订单内容"}],"message":"SUCCESS"}
+2020-06-26 14:20:46 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] 方法[findHomeMenuList]返回加密数据:
+{"code":"0","data":[],"message":"SUCCESS"}
+2020-06-26 14:25:18 [ INFO ] [ com.httd.api.aop.TimeInterceptor ] 方法findHomeBannerList,请求耗时[29]毫秒
+2020-06-26 14:25:18 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] .....加密返回参数开始.....
+2020-06-26 14:25:18 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] .....加密返回参数结束.....
+2020-06-26 14:25:18 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] 方法[findHomeBannerList]返回加密数据:
+{"code":"0","data":[],"message":"SUCCESS"}
+2020-06-26 14:25:18 [ INFO ] [ com.httd.api.aop.TimeInterceptor ] 方法findHomeMenuList,请求耗时[32]毫秒
+2020-06-26 14:25:18 [ INFO ] [ com.httd.api.aop.TimeInterceptor ] 方法findHomeNoticeList,请求耗时[31]毫秒
+2020-06-26 14:25:18 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] .....加密返回参数开始.....
+2020-06-26 14:25:18 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] .....加密返回参数结束.....
+2020-06-26 14:25:18 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] .....加密返回参数开始.....
+2020-06-26 14:25:18 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] 方法[findHomeMenuList]返回加密数据:
+{"code":"0","data":[],"message":"SUCCESS"}
+2020-06-26 14:25:18 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] .....加密返回参数结束.....
+2020-06-26 14:25:18 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] 方法[findHomeNoticeList]返回加密数据:
+{"code":"0","data":[{"jumpType":0,"noticeTitle":"订单","noticeContent":"订单内容"}],"message":"SUCCESS"}
+2020-06-26 14:26:10 [ INFO ] [ com.httd.api.aop.TimeInterceptor ] 方法findHomeMenuList,请求耗时[30]毫秒
+2020-06-26 14:26:10 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] .....加密返回参数开始.....
+2020-06-26 14:26:10 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] .....加密返回参数结束.....
+2020-06-26 14:26:10 [ INFO ] [ com.httd.api.aop.TimeInterceptor ] 方法findHomeBannerList,请求耗时[31]毫秒
+2020-06-26 14:26:10 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] 方法[findHomeMenuList]返回加密数据:
+{"code":"0","data":[],"message":"SUCCESS"}
+2020-06-26 14:26:10 [ INFO ] [ com.httd.api.aop.TimeInterceptor ] 方法findHomeNoticeList,请求耗时[31]毫秒
+2020-06-26 14:26:10 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] .....加密返回参数开始.....
+2020-06-26 14:26:10 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] .....加密返回参数结束.....
+2020-06-26 14:26:10 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] 方法[findHomeBannerList]返回加密数据:
+{"code":"0","data":[],"message":"SUCCESS"}
+2020-06-26 14:26:10 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] .....加密返回参数开始.....
+2020-06-26 14:26:10 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] .....加密返回参数结束.....
+2020-06-26 14:26:10 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] 方法[findHomeNoticeList]返回加密数据:
+{"code":"0","data":[{"jumpType":0,"noticeTitle":"订单","noticeContent":"订单内容"}],"message":"SUCCESS"}
+2020-06-26 14:29:26 [ INFO ] [ com.httd.api.aop.TimeInterceptor ] 方法findHomeNoticeList,请求耗时[36]毫秒
+2020-06-26 14:29:26 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] .....加密返回参数开始.....
+2020-06-26 14:29:26 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] .....加密返回参数结束.....
+2020-06-26 14:29:26 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] 方法[findHomeNoticeList]返回加密数据:
+{"code":"0","data":[{"jumpType":0,"noticeTitle":"订单","noticeContent":"订单内容"}],"message":"SUCCESS"}
+2020-06-26 14:29:26 [ INFO ] [ com.httd.api.aop.TimeInterceptor ] 方法findHomeBannerList,请求耗时[41]毫秒
+2020-06-26 14:29:26 [ INFO ] [ com.httd.api.aop.TimeInterceptor ] 方法findHomeMenuList,请求耗时[41]毫秒
+2020-06-26 14:29:26 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] .....加密返回参数开始.....
+2020-06-26 14:29:26 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] .....加密返回参数开始.....
+2020-06-26 14:29:26 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] .....加密返回参数结束.....
+2020-06-26 14:29:26 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] .....加密返回参数结束.....
+2020-06-26 14:29:26 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] 方法[findHomeMenuList]返回加密数据:
+{"code":"0","data":[],"message":"SUCCESS"}
+2020-06-26 14:29:26 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] 方法[findHomeBannerList]返回加密数据:
+{"code":"0","data":[],"message":"SUCCESS"}
+2020-06-26 14:31:04 [ INFO ] [ com.httd.api.aop.TimeInterceptor ] 方法findHomeMenuList,请求耗时[31]毫秒
+2020-06-26 14:31:04 [ INFO ] [ com.httd.api.aop.TimeInterceptor ] 方法findHomeBannerList,请求耗时[31]毫秒
+2020-06-26 14:31:04 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] .....加密返回参数开始.....
+2020-06-26 14:31:04 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] .....加密返回参数开始.....
+2020-06-26 14:31:04 [ INFO ] [ com.httd.api.aop.TimeInterceptor ] 方法findHomeNoticeList,请求耗时[32]毫秒
+2020-06-26 14:31:04 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] .....加密返回参数结束.....
+2020-06-26 14:31:04 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] .....加密返回参数结束.....
+2020-06-26 14:31:04 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] 方法[findHomeMenuList]返回加密数据:
+{"code":"0","data":[],"message":"SUCCESS"}
+2020-06-26 14:31:04 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] 方法[findHomeBannerList]返回加密数据:
+{"code":"0","data":[],"message":"SUCCESS"}
+2020-06-26 14:31:04 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] .....加密返回参数开始.....
+2020-06-26 14:31:04 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] .....加密返回参数结束.....
+2020-06-26 14:31:04 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] 方法[findHomeNoticeList]返回加密数据:
+{"code":"0","data":[{"jumpType":0,"noticeTitle":"订单","noticeContent":"订单内容"}],"message":"SUCCESS"}
+2020-06-26 14:31:53 [ INFO ] [ com.httd.api.aop.TimeInterceptor ] 方法findHomeMenuList,请求耗时[78]毫秒
+2020-06-26 14:31:53 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] .....加密返回参数开始.....
+2020-06-26 14:31:53 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] .....加密返回参数结束.....
+2020-06-26 14:31:53 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] 方法[findHomeMenuList]返回加密数据:
+{"code":"0","data":[],"message":"SUCCESS"}
+2020-06-26 14:31:53 [ INFO ] [ com.httd.api.aop.TimeInterceptor ] 方法findHomeNoticeList,请求耗时[86]毫秒
+2020-06-26 14:31:53 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] .....加密返回参数开始.....
+2020-06-26 14:31:53 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] .....加密返回参数结束.....
+2020-06-26 14:31:53 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] 方法[findHomeNoticeList]返回加密数据:
+{"code":"0","data":[{"jumpType":0,"noticeTitle":"订单","noticeContent":"订单内容"}],"message":"SUCCESS"}
+2020-06-26 14:31:53 [ INFO ] [ com.httd.api.aop.TimeInterceptor ] 方法findHomeBannerList,请求耗时[261]毫秒
+2020-06-26 14:31:53 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] .....加密返回参数开始.....
+2020-06-26 14:31:53 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] .....加密返回参数结束.....
+2020-06-26 14:31:53 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] 方法[findHomeBannerList]返回加密数据:
+{"code":"0","data":[],"message":"SUCCESS"}
+2020-06-26 14:31:57 [ INFO ] [ com.httd.api.aop.TimeInterceptor ] 方法findHomeBannerList,请求耗时[33]毫秒
+2020-06-26 14:31:57 [ INFO ] [ com.httd.api.aop.TimeInterceptor ] 方法findHomeMenuList,请求耗时[34]毫秒
+2020-06-26 14:31:57 [ INFO ] [ com.httd.api.aop.TimeInterceptor ] 方法findHomeNoticeList,请求耗时[34]毫秒
+2020-06-26 14:31:57 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] .....加密返回参数开始.....
+2020-06-26 14:31:57 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] .....加密返回参数开始.....
+2020-06-26 14:31:57 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] .....加密返回参数结束.....
+2020-06-26 14:31:57 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] .....加密返回参数开始.....
+2020-06-26 14:31:57 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] .....加密返回参数结束.....
+2020-06-26 14:31:57 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] .....加密返回参数结束.....
+2020-06-26 14:31:57 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] 方法[findHomeBannerList]返回加密数据:
+{"code":"0","data":[],"message":"SUCCESS"}
+2020-06-26 14:31:57 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] 方法[findHomeMenuList]返回加密数据:
+{"code":"0","data":[],"message":"SUCCESS"}
+2020-06-26 14:31:57 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] 方法[findHomeNoticeList]返回加密数据:
+{"code":"0","data":[{"jumpType":0,"noticeTitle":"订单","noticeContent":"订单内容"}],"message":"SUCCESS"}
+2020-06-26 14:35:12 [ INFO ] [ com.httd.api.aop.TimeInterceptor ] 方法findHomeBannerList,请求耗时[31]毫秒
+2020-06-26 14:35:12 [ INFO ] [ com.httd.api.aop.TimeInterceptor ] 方法findHomeMenuList,请求耗时[30]毫秒
+2020-06-26 14:35:12 [ INFO ] [ com.httd.api.aop.TimeInterceptor ] 方法findHomeNoticeList,请求耗时[30]毫秒
+2020-06-26 14:35:12 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] .....加密返回参数开始.....
+2020-06-26 14:35:12 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] .....加密返回参数开始.....
+2020-06-26 14:35:12 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] .....加密返回参数结束.....
+2020-06-26 14:35:12 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] .....加密返回参数开始.....
+2020-06-26 14:35:12 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] .....加密返回参数结束.....
+2020-06-26 14:35:12 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] .....加密返回参数结束.....
+2020-06-26 14:35:12 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] 方法[findHomeBannerList]返回加密数据:
+{"code":"0","data":[],"message":"SUCCESS"}
+2020-06-26 14:35:12 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] 方法[findHomeMenuList]返回加密数据:
+{"code":"0","data":[],"message":"SUCCESS"}
+2020-06-26 14:35:12 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] 方法[findHomeNoticeList]返回加密数据:
+{"code":"0","data":[{"jumpType":0,"noticeTitle":"订单","noticeContent":"订单内容"}],"message":"SUCCESS"}
+2020-06-26 14:35:17 [ WARN ] [ com.zaxxer.hikari.pool.PoolBase ] Retail_HikariCP - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@7c4af09b (Communications link failure
+
+The last packet successfully received from the server was 1,206,817 milliseconds ago. The last packet sent successfully to the server was 1,206,826 milliseconds ago.). Possibly consider using a shorter maxLifetime value.
+2020-06-26 14:35:17 [ INFO ] [ com.httd.api.aop.TimeInterceptor ] 方法findHomeNoticeList,请求耗时[5032]毫秒
+2020-06-26 14:35:17 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] .....加密返回参数开始.....
+2020-06-26 14:35:17 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] .....加密返回参数结束.....
+2020-06-26 14:35:17 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] 方法[findHomeNoticeList]返回加密数据:
+{"code":"0","data":[{"jumpType":0,"noticeTitle":"订单","noticeContent":"订单内容"}],"message":"SUCCESS"}
+2020-06-26 14:36:23 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] .....加密返回参数开始.....
+2020-06-26 14:36:23 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] .....加密返回参数结束.....
+2020-06-26 14:36:23 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] 方法[error]返回加密数据:
+{"error":"Not Found","message":"","path":"/homeRecommend/findRecommendList","timestamp":1593153383630,"status":404}
+2020-06-26 14:36:23 [ INFO ] [ com.httd.api.aop.TimeInterceptor ] 方法findHomeNoticeList,请求耗时[25]毫秒
+2020-06-26 14:36:23 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] .....加密返回参数开始.....
+2020-06-26 14:36:23 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] .....加密返回参数结束.....
+2020-06-26 14:36:23 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] 方法[findHomeNoticeList]返回加密数据:
+{"code":"0","data":[{"jumpType":0,"noticeTitle":"订单","noticeContent":"订单内容"}],"message":"SUCCESS"}
+2020-06-26 14:36:23 [ INFO ] [ com.httd.api.aop.TimeInterceptor ] 方法findHomeMenuList,请求耗时[31]毫秒
+2020-06-26 14:36:23 [ INFO ] [ com.httd.api.aop.TimeInterceptor ] 方法findHomeBannerList,请求耗时[32]毫秒
+2020-06-26 14:36:23 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] .....加密返回参数开始.....
+2020-06-26 14:36:23 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] .....加密返回参数开始.....
+2020-06-26 14:36:23 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] .....加密返回参数结束.....
+2020-06-26 14:36:23 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] .....加密返回参数结束.....
+2020-06-26 14:36:23 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] 方法[findHomeMenuList]返回加密数据:
+{"code":"0","data":[],"message":"SUCCESS"}
+2020-06-26 14:36:23 [ INFO ] [ com.httd.api.aop.EncodeResponseBodyAdvice ] 方法[findHomeBannerList]返回加密数据:
+{"code":"0","data":[],"message":"SUCCESS"}
+2020-06-26 14:40:22 [ INFO ] [ org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler ] Shutting down ExecutorService 'taskScheduler'
+2020-06-26 14:40:22 [ INFO ] [ com.zaxxer.hikari.HikariDataSource ] Retail_HikariCP - Shutdown initiated...
+2020-06-26 14:40:22 [ INFO ] [ com.zaxxer.hikari.HikariDataSource ] Retail_HikariCP - Shutdown completed.

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.httd.api.mapper.HomeBannerMapper">
+    <!--获取首页轮播图-->
+    <select id="findHomeBannerList" resultType="com.httd.api.business.home.entity.FindHomeBannerListDTO"
+            parameterType="com.httd.api.base.BaseVO">
+        select banner_name,banner_image,jump_type,jump_path
+        from t_home_banner where banner_status = 0
+        order by banner_index desc limit #{page.indexNo},#{page.pageSize}
+    </select>
+</mapper>

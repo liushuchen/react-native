@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.httd.api.mapper.HomeMenuMapper">
+    <!--获取首页菜单-->
+    <select id="findHomeMenuList" resultType="com.httd.api.business.home.entity.FindHomeMenuListDTO"
+            parameterType="com.httd.api.base.BaseVO">
+        select menu_name,menu_image,jump_type,jump_path
+        from t_home_menu where menu_status = 0
+        order by menu_index desc limit #{page.indexNo},#{page.pageSize}
+    </select>
+</mapper>

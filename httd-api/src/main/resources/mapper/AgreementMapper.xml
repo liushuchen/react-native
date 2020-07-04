@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.httd.api.mapper.AgreementMapper">
+
+    <!--获取协议列表-->
+    <select id="findAgreement" resultType="com.httd.api.business.config.entity.FindAgreementDTO">
+        select content,agreement_id as agreementId,type
+        from t_agreement where type=#{type}
+    </select>
+
+    <!--修改协议内容-->
+    <update id="updateAgreement" parameterType="com.httd.api.business.config.entity.UpdateAppAboutVO" >
+        update t_agreement set content =#{content} where type=#{type}
+    </update>
+</mapper>
